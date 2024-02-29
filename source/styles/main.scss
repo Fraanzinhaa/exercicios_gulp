@@ -1,0 +1,13 @@
+@use 'variaveis';
+
+body {
+  background-color: variaveis.$corPrincipal;
+}
+
+h1 {
+  font-size: variaveis.$tamanhoTitulo;
+}
+
+p {
+  color: variaveis.$corSecundaria;
+}
